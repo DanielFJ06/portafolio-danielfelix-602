@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #141414;
+	color: white;
+	font-family: Arial;
+}
+
+/*Aqui acomodamos mas tarde el header*/
+
+
+header .logo img{
+	width: 10%;
+}
+
+main .contenedor{
+	width: 90%;
+	margin: 0 auto;
+	background: #141414;
+}
+
+main .perfil .foto{
+	width: 150px;
+	height: 150px;
+	background: salmon;
+	border: 5px solid #262525;
+}
+
+main .perfil .foto:hover{
+	border: 5px solid white;
+	transition: 0.5s;
+}
+
+main .perfiles{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+main .perfiles .nombre{
+margin: 15px 0;
+text-align: center;
+}
+
+main .bienvenida{
+	text-align: center;
+	margin: 35px;
+	font-size: 30px;
+}
+
+.boton a{
+	color: #8c8c8c;
+	text-decoration: none;
+	border: 1px solid #8c8c8c;
+	padding: 10px 50px;
+	display: inline-block;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.boton a:hover{
+	color: white;
+	border: 1px solid white;
+	transition: 0.5s;
+}
+
+main .boton{
+	text-align: center;
+	margin: 10px 50;
+}
+
+footer{
+	text-align: center;
+	padding: 30px;
+}
+
+main .perfiles .foto img{
+	width: 100;
+	height: 100%;
+}
+
+.volver{
+    display: inline-block;
+    padding: 12px 20px;
+    background: #222;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.volver:hover{
+	transform: scale(1.1);
+}

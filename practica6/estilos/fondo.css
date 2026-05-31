@@ -1,0 +1,69 @@
+body{
+	background: url("../img/fondo.png");
+}
+
+header, main, footer{
+	background: white ;
+	width: 70%;
+	margin: 10px auto;
+	padding: 15px;
+	border-radius: 20px;
+}
+
+
+
+/*Centrar Texto en deader y footer*/
+
+header, footer{
+	text-align: center;
+}
+
+/*texto de caja main, justificado y con mayor interlineado*/
+
+main p{
+	text-align: justify;
+	line-height: 32px;
+}
+
+header:hover{
+  background: #00b4d8;
+  color: white;
+}
+
+main:hover{
+  background: #9d0208;
+  color: white;
+}
+
+footer:hover{
+  background: #9ef01a;
+  color: white;
+}
+
+
+.volver{
+    display: inline-block;
+    padding: 12px 20px;
+    background: #222;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+
+.volver{
+    display: inline-block;
+    padding: 12px 20px;
+    background: #222;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.volver:hover{
+    transform: scale(1.1);
+}
+
